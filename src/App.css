@@ -1,0 +1,326 @@
+/* Estilos para la sección principal */
+
+.banner {
+  width: 100%;
+  background-color: #dd7515; /* Cambia el color de fondo según tus preferencias */
+  text-align: center;
+  padding: 10px; /* Espacio interno del banner */
+}
+
+/* Estilos para la imagen del banner */
+.banner img {
+  max-width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor */
+  height: 170px;
+}
+
+
+.pokemon-details {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    min-height: 100vh;    
+  }
+
+  .pokemon-card {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    min-height: 100vh;      
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* Estilos para la sección de encabezado */
+  .pokemon-header { 
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulos {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: hsla(221, 64%, 17%, 0.493);
+  }  
+  
+  /* Estilos para la imagen */
+  .pokemon-image {
+    width: 270px;
+    height: 270px;
+    
+    }
+
+  /* Estilos para el contenedor de información */
+  .pokemon-info {
+    display: flex;
+    flex-direction: row; /* Mostrar elementos en una fila horizontal */
+    justify-content: space-between; /* Espaciado uniforme entre elementos */
+    align-items: center; /* Centrar verticalmente los elementos en la fila */
+  }
+  
+  /* Estilos para los elementos de información */
+  .info-item {
+    display: flex;
+    flex-direction: column; /* Mostrar títulos y números uno encima del otro */
+    align-items: center; /* Centrar horizontalmente los elementos */
+    margin: 0 10px; /* Agregar margen a los elementos para separación */
+  }
+  
+  /* Estilos para las etiquetas de información */
+  .info-label {
+    font-size: 10px;
+    color: hsla(221, 64%, 17%, 0.493);
+  }
+  
+  /* Estilos para los valores de información */
+  .info-value {
+    color: hsla(221, 64%, 17%, 0.493);
+    font-weight: bold;
+  }
+
+  /* Estilos para los títulos */
+  .section-title {
+    font-size: 18px;    
+    text-align: center;
+  }
+  
+  /* Estilos para las listas */
+  .pokemon-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pokemon-section {
+    padding-bottom: 15px;
+  }
+  /* Estilos para los elementos de lista */
+  .pokemon-list-item {
+    margin-bottom: 5px;
+  }
+
+ /* Estilos para el contenedor de tipo y habilidades */
+.type-abilities {
+    padding-top: 15px;
+    display: flex;
+    align-items: flex-start; /* Alinear los elementos en la parte superior */
+    gap: 80px; /* Espacio entre las secciones */
+  }
+  
+  /* Estilos para la sección de tipo */
+  .type {
+    flex: 1; /* Ocupar todo el espacio disponible */
+  }
+
+  .pokemon-types {
+    display: flex;
+    gap: 40px;
+    background-color: #1a75ca;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }  
+
+  .pokemon-abilities {
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  /* Estilos para la sección de habilidades */
+  .abilities {
+    flex: 1; /* Ocupar todo el espacio disponible */
+  }
+
+  /* Estilos para la sección de estadísticas */
+.pokemon-section-stats {
+    margin-top: 20px; /* Espacio superior */
+    text-align: center;
+  }
+  
+  /* Estilos para el título de estadísticas */
+  .section-title-stats {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  /* Estilos para la lista de estadísticas */
+  .pokemon-stats-list {
+    list-style: none; /* Quitar viñetas de la lista */
+    padding: 0; /* Quitar relleno */
+  }
+  
+  /* Estilos para los elementos de estadísticas */
+  .pokemon-stats-item {
+    display: flex;
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alinear verticalmente al centro */
+    margin-bottom: 5px; /* Espacio inferior entre elementos */
+  }
+  
+  /* Estilos para el nombre de estadísticas */
+  .stat-name {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el valor de estadísticas */
+  .stat-value {
+    background-color: hsla(352, 68%, 48%, 0.733); /* Fondo del valor */
+    padding: 3px 20px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-left: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+ /* Estilos para la sección de movimientos */
+.pokemon-section-move {
+    margin-top: 30px;
+  }
+
+  .section-title-stats {
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Estilos para los elementos de la lista de movimientos */
+  .pokemon-section-move ul {
+    columns: 4; /* Divide los elementos en cuatro columnas */
+    column-gap: 20px; /* Espacio entre columnas */
+  }
+  
+  /* Estilos para los elementos de la lista de movimientos */
+/* Estilos para los elementos de movimientos */
+.pokemon-section-move li {
+    margin-bottom: 5px; /* Espacio inferior entre elementos */
+    font-weight: bold; /* Texto en negrita */
+    color: #888383; /* Color del texto */
+  }
+
+  .section-title-movements {
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    text-align: center;
+
+  }
+
+.center-container {
+  text-align: center;
+}
+
+.pokemon-card-container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+  article {     
+      margin-top: 20px;
+      margin-right: 40px;
+      margin-left: 40px; /* Agrega margen derecho para separar las tarjetas horizontalmente */
+      margin-bottom: 10px; /* Agrega margen inferior para separar las tarjetas verticalmente */
+      width: 100%;
+      max-width: 200px;
+      background-color: white;
+      color: rgb(61, 56, 56);
+      border-radius: 1em;
+      overflow: hidden;/*todo lo que sobresalga de la cards se va a acortar*/ 
+      transition: transform 100ms ease;
+      display: inline-block; 
+      text-align: center; 
+      justify-content: center;
+      align-items: center; 
+      border: 1px solid #ccc;
+      flex-direction: row;
+      padding: 15px;
+      margin: 16px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  
+  }
+
+  .cards {
+    color: #F39C12;
+    font-weight: 700;
+  }
+
+  .cards-span {
+    color: black
+  }
+
+  .input-card {
+    border: 1px solid #ccc;
+    height: 26px;
+    border-radius: 3px;
+  }
+
+  .button-card {
+    height: 30px;
+    background-color: #F39C12;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;    
+  }
+
+  select {
+    margin-top: 25px;
+    height: 30px;
+    border-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #888383;
+    width: 15em;
+  }
+  .principal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Agrega un fondo para visualizar mejor el contenido */
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .centered-image {
+    max-width: 50%; /* Cambia el tamaño de la imagen como desees */
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+  }
+
+  .card-stat {
+    margin-top: 10px;
+  }
+
+  .stat-value-2 {
+    background-color: #F39C12;
+    border-radius: 50%;
+    padding: 5px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  .stat-name {
+    color: #888383;
+  }
+
+  .card-nom {
+    display: flex;
+    flex-direction: row; /* Mostrar elementos en una fila horizontal */
+    justify-content: space-around; 
+    margin-bottom: 10px ;
+    color: #05437e;
+    font-weight: 700;
+    font-size: 12px;
+  }
