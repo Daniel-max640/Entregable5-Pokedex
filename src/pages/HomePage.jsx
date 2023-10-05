@@ -23,7 +23,7 @@ const HomePage = () => {
     <div className="center-content">
       <img
         className="centered-image"
-        src="/public/img/Pokédex_3D.png"
+        src="/Pokédex_3D.png"
         alt="Banner"
       />
       <h2>Hi Trainer</h2>
