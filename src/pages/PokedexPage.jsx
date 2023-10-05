@@ -56,7 +56,7 @@ const PokedexPage = () => {
     <div className="center-container">
 
 <div className="banner">
-        <img src="./public/img/Pokédex_3D.png" alt="Banner" />
+        <img src="/Pokédex_3D.png" alt="Banner" />
       </div>
       <p className="cards">Bienvenido {trainer}, <span className="cards-span">aqui podras encontrar tu pokemon favorito</span> </p>
       <form onSubmit={handleSearch}>

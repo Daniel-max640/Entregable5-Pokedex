@@ -19,7 +19,7 @@ console.log(pokemon)
     <div className="pokemon-details">
 
         <div className="banner">
-        <img src="./public/img/Pokédex_3D.png" alt="Banner" />
+        <img src="/Pokédex_3D.png" alt="Banner" />
         </div>
 
         <div className="pokemon-card">
